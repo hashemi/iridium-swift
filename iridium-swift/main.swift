@@ -6,7 +6,5 @@
 //  Copyright © 2018 Ahmad Alhashemi. All rights reserved.
 //
 
-import Foundation
-
-print("Hello, World!")
-
+var repl = REPL()
+repl.run()

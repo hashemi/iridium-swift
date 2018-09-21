@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		EE746A9D21542D59002B1CE4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE746A9C21542D59002B1CE4 /* main.swift */; };
+		EE746AA421542DB0002B1CE4 /* vm.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE746AA321542DB0002B1CE4 /* vm.swift */; };
+		EE746AA621542ED2002B1CE4 /* instruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE746AA521542ED2002B1CE4 /* instruction.swift */; };
+		EE746AA8215441D7002B1CE4 /* repl.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE746AA7215441D7002B1CE4 /* repl.swift */; };
+		EE746AAA2154E573002B1CE4 /* assembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE746AA92154E573002B1CE4 /* assembler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		EE746A9921542D59002B1CE4 /* iridium-swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "iridium-swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE746A9C21542D59002B1CE4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EE746AA321542DB0002B1CE4 /* vm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vm.swift; sourceTree = "<group>"; };
+		EE746AA521542ED2002B1CE4 /* instruction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instruction.swift; sourceTree = "<group>"; };
+		EE746AA7215441D7002B1CE4 /* repl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = repl.swift; sourceTree = "<group>"; };
+		EE746AA92154E573002B1CE4 /* assembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assembler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				EE746A9C21542D59002B1CE4 /* main.swift */,
+				EE746AA321542DB0002B1CE4 /* vm.swift */,
+				EE746AA521542ED2002B1CE4 /* instruction.swift */,
+				EE746AA7215441D7002B1CE4 /* repl.swift */,
+				EE746AA92154E573002B1CE4 /* assembler.swift */,
 			);
 			path = "iridium-swift";
 			sourceTree = "<group>";
@@ -119,6 +131,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE746AAA2154E573002B1CE4 /* assembler.swift in Sources */,
+				EE746AA8215441D7002B1CE4 /* repl.swift in Sources */,
+				EE746AA421542DB0002B1CE4 /* vm.swift in Sources */,
+				EE746AA621542ED2002B1CE4 /* instruction.swift in Sources */,
 				EE746A9D21542D59002B1CE4 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
